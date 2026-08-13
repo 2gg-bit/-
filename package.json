@@ -1,0 +1,16 @@
+{
+  "name": "lab-scheduler",
+  "version": "1.0.0",
+  "private": true,
+  "description": "检测实验室简易排班管理系统（课程项目：使用AI工具辅助完成）",
+  "scripts": {
+    "install-all": "npm install && npm --prefix server install && npm --prefix client install",
+    "dev": "concurrently -n server,client -c blue,green \"npm --prefix server start\" \"npm --prefix client run dev\"",
+    "build": "npm --prefix client run build",
+    "start": "npm --prefix server start",
+    "test": "npm --prefix server test"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}

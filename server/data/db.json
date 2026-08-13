@@ -1,0 +1,1831 @@
+{
+  "samples": [
+    {
+      "id": "A",
+      "name": "水质检测",
+      "processMinutes": 30,
+      "unitValue": 200,
+      "unitCost": 80,
+      "priority": 1
+    },
+    {
+      "id": "B",
+      "name": "土壤重金属检测",
+      "processMinutes": 45,
+      "unitValue": 350,
+      "unitCost": 150,
+      "priority": 1
+    },
+    {
+      "id": "C",
+      "name": "空气颗粒物检测",
+      "processMinutes": 60,
+      "unitValue": 500,
+      "unitCost": 200,
+      "priority": 2
+    },
+    {
+      "id": "D",
+      "name": "食品微生物检测",
+      "processMinutes": 120,
+      "unitValue": 800,
+      "unitCost": 300,
+      "priority": 2
+    },
+    {
+      "id": "E",
+      "name": "纺织品甲醛检测",
+      "processMinutes": 20,
+      "unitValue": 120,
+      "unitCost": 50,
+      "priority": 3
+    }
+  ],
+  "staff": [
+    {
+      "id": 1,
+      "name": "张伟",
+      "type": "全职",
+      "skills": [
+        "A",
+        "B",
+        "C"
+      ],
+      "available": true,
+      "workHours": 8,
+      "hourlyRate": 50,
+      "efficiency": 1
+    },
+    {
+      "id": 2,
+      "name": "李娜",
+      "type": "全职",
+      "skills": [
+        "B",
+        "C",
+        "D"
+      ],
+      "available": true,
+      "workHours": 8,
+      "hourlyRate": 55,
+      "efficiency": 1.1
+    },
+    {
+      "id": 3,
+      "name": "王强",
+      "type": "全职",
+      "skills": [
+        "C",
+        "D",
+        "E"
+      ],
+      "available": true,
+      "workHours": 8,
+      "hourlyRate": 48,
+      "efficiency": 0.95
+    },
+    {
+      "id": 4,
+      "name": "赵敏",
+      "type": "全职",
+      "skills": [
+        "A",
+        "B",
+        "E"
+      ],
+      "available": true,
+      "workHours": 8,
+      "hourlyRate": 52,
+      "efficiency": 1.05
+    },
+    {
+      "id": 5,
+      "name": "陈晨",
+      "type": "实习生",
+      "skills": [
+        "A",
+        "E"
+      ],
+      "available": true,
+      "workHours": 4,
+      "hourlyRate": 20,
+      "efficiency": 0.6
+    },
+    {
+      "id": 6,
+      "name": "刘洋",
+      "type": "实习生",
+      "skills": [
+        "D"
+      ],
+      "available": true,
+      "workHours": 4,
+      "hourlyRate": 20,
+      "efficiency": 0.7
+    }
+  ],
+  "tasks": [
+    {
+      "sampleId": "A",
+      "count": 16
+    },
+    {
+      "sampleId": "B",
+      "count": 10
+    },
+    {
+      "sampleId": "C",
+      "count": 8
+    },
+    {
+      "sampleId": "D",
+      "count": 4
+    },
+    {
+      "sampleId": "E",
+      "count": 10
+    }
+  ],
+  "currentSchedule": {
+    "date": "2026-08-13",
+    "generatedAt": "2026-08-13T03:12:26.523Z",
+    "assignments": [
+      {
+        "seq": 1,
+        "staffId": 2,
+        "staffName": "李娜",
+        "sampleId": "B",
+        "sampleName": "土壤重金属检测",
+        "sampleSeq": 1,
+        "hours": 0.6818181818181818
+      },
+      {
+        "seq": 2,
+        "staffId": 4,
+        "staffName": "赵敏",
+        "sampleId": "B",
+        "sampleName": "土壤重金属检测",
+        "sampleSeq": 2,
+        "hours": 0.7142857142857143
+      },
+      {
+        "seq": 3,
+        "staffId": 1,
+        "staffName": "张伟",
+        "sampleId": "B",
+        "sampleName": "土壤重金属检测",
+        "sampleSeq": 3,
+        "hours": 0.75
+      },
+      {
+        "seq": 4,
+        "staffId": 2,
+        "staffName": "李娜",
+        "sampleId": "B",
+        "sampleName": "土壤重金属检测",
+        "sampleSeq": 4,
+        "hours": 0.6818181818181818
+      },
+      {
+        "seq": 5,
+        "staffId": 4,
+        "staffName": "赵敏",
+        "sampleId": "B",
+        "sampleName": "土壤重金属检测",
+        "sampleSeq": 5,
+        "hours": 0.7142857142857143
+      },
+      {
+        "seq": 6,
+        "staffId": 1,
+        "staffName": "张伟",
+        "sampleId": "B",
+        "sampleName": "土壤重金属检测",
+        "sampleSeq": 6,
+        "hours": 0.75
+      },
+      {
+        "seq": 7,
+        "staffId": 2,
+        "staffName": "李娜",
+        "sampleId": "B",
+        "sampleName": "土壤重金属检测",
+        "sampleSeq": 7,
+        "hours": 0.6818181818181818
+      },
+      {
+        "seq": 8,
+        "staffId": 4,
+        "staffName": "赵敏",
+        "sampleId": "B",
+        "sampleName": "土壤重金属检测",
+        "sampleSeq": 8,
+        "hours": 0.7142857142857143
+      },
+      {
+        "seq": 9,
+        "staffId": 2,
+        "staffName": "李娜",
+        "sampleId": "B",
+        "sampleName": "土壤重金属检测",
+        "sampleSeq": 9,
+        "hours": 0.6818181818181818
+      },
+      {
+        "seq": 10,
+        "staffId": 1,
+        "staffName": "张伟",
+        "sampleId": "B",
+        "sampleName": "土壤重金属检测",
+        "sampleSeq": 10,
+        "hours": 0.75
+      },
+      {
+        "seq": 11,
+        "staffId": 5,
+        "staffName": "陈晨",
+        "sampleId": "A",
+        "sampleName": "水质检测",
+        "sampleSeq": 1,
+        "hours": 0.8333333333333334
+      },
+      {
+        "seq": 12,
+        "staffId": 4,
+        "staffName": "赵敏",
+        "sampleId": "A",
+        "sampleName": "水质检测",
+        "sampleSeq": 2,
+        "hours": 0.47619047619047616
+      },
+      {
+        "seq": 13,
+        "staffId": 1,
+        "staffName": "张伟",
+        "sampleId": "A",
+        "sampleName": "水质检测",
+        "sampleSeq": 3,
+        "hours": 0.5
+      },
+      {
+        "seq": 14,
+        "staffId": 4,
+        "staffName": "赵敏",
+        "sampleId": "A",
+        "sampleName": "水质检测",
+        "sampleSeq": 4,
+        "hours": 0.47619047619047616
+      },
+      {
+        "seq": 15,
+        "staffId": 4,
+        "staffName": "赵敏",
+        "sampleId": "A",
+        "sampleName": "水质检测",
+        "sampleSeq": 5,
+        "hours": 0.47619047619047616
+      },
+      {
+        "seq": 16,
+        "staffId": 1,
+        "staffName": "张伟",
+        "sampleId": "A",
+        "sampleName": "水质检测",
+        "sampleSeq": 6,
+        "hours": 0.5
+      },
+      {
+        "seq": 17,
+        "staffId": 5,
+        "staffName": "陈晨",
+        "sampleId": "A",
+        "sampleName": "水质检测",
+        "sampleSeq": 7,
+        "hours": 0.8333333333333334
+      },
+      {
+        "seq": 18,
+        "staffId": 4,
+        "staffName": "赵敏",
+        "sampleId": "A",
+        "sampleName": "水质检测",
+        "sampleSeq": 8,
+        "hours": 0.47619047619047616
+      },
+      {
+        "seq": 19,
+        "staffId": 1,
+        "staffName": "张伟",
+        "sampleId": "A",
+        "sampleName": "水质检测",
+        "sampleSeq": 9,
+        "hours": 0.5
+      },
+      {
+        "seq": 20,
+        "staffId": 4,
+        "staffName": "赵敏",
+        "sampleId": "A",
+        "sampleName": "水质检测",
+        "sampleSeq": 10,
+        "hours": 0.47619047619047616
+      },
+      {
+        "seq": 21,
+        "staffId": 1,
+        "staffName": "张伟",
+        "sampleId": "A",
+        "sampleName": "水质检测",
+        "sampleSeq": 11,
+        "hours": 0.5
+      },
+      {
+        "seq": 22,
+        "staffId": 4,
+        "staffName": "赵敏",
+        "sampleId": "A",
+        "sampleName": "水质检测",
+        "sampleSeq": 12,
+        "hours": 0.47619047619047616
+      },
+      {
+        "seq": 23,
+        "staffId": 1,
+        "staffName": "张伟",
+        "sampleId": "A",
+        "sampleName": "水质检测",
+        "sampleSeq": 13,
+        "hours": 0.5
+      },
+      {
+        "seq": 24,
+        "staffId": 5,
+        "staffName": "陈晨",
+        "sampleId": "A",
+        "sampleName": "水质检测",
+        "sampleSeq": 14,
+        "hours": 0.8333333333333334
+      },
+      {
+        "seq": 25,
+        "staffId": 4,
+        "staffName": "赵敏",
+        "sampleId": "A",
+        "sampleName": "水质检测",
+        "sampleSeq": 15,
+        "hours": 0.47619047619047616
+      },
+      {
+        "seq": 26,
+        "staffId": 1,
+        "staffName": "张伟",
+        "sampleId": "A",
+        "sampleName": "水质检测",
+        "sampleSeq": 16,
+        "hours": 0.5
+      },
+      {
+        "seq": 27,
+        "staffId": 6,
+        "staffName": "刘洋",
+        "sampleId": "D",
+        "sampleName": "食品微生物检测",
+        "sampleSeq": 1,
+        "hours": 2.857142857142857
+      },
+      {
+        "seq": 28,
+        "staffId": 3,
+        "staffName": "王强",
+        "sampleId": "D",
+        "sampleName": "食品微生物检测",
+        "sampleSeq": 2,
+        "hours": 2.1052631578947367
+      },
+      {
+        "seq": 29,
+        "staffId": 2,
+        "staffName": "李娜",
+        "sampleId": "D",
+        "sampleName": "食品微生物检测",
+        "sampleSeq": 3,
+        "hours": 1.8181818181818181
+      },
+      {
+        "seq": 30,
+        "staffId": 3,
+        "staffName": "王强",
+        "sampleId": "D",
+        "sampleName": "食品微生物检测",
+        "sampleSeq": 4,
+        "hours": 2.1052631578947367
+      },
+      {
+        "seq": 31,
+        "staffId": 2,
+        "staffName": "李娜",
+        "sampleId": "C",
+        "sampleName": "空气颗粒物检测",
+        "sampleSeq": 1,
+        "hours": 0.9090909090909091
+      },
+      {
+        "seq": 32,
+        "staffId": 3,
+        "staffName": "王强",
+        "sampleId": "C",
+        "sampleName": "空气颗粒物检测",
+        "sampleSeq": 2,
+        "hours": 1.0526315789473684
+      },
+      {
+        "seq": 33,
+        "staffId": 2,
+        "staffName": "李娜",
+        "sampleId": "C",
+        "sampleName": "空气颗粒物检测",
+        "sampleSeq": 3,
+        "hours": 0.9090909090909091
+      },
+      {
+        "seq": 34,
+        "staffId": 1,
+        "staffName": "张伟",
+        "sampleId": "C",
+        "sampleName": "空气颗粒物检测",
+        "sampleSeq": 4,
+        "hours": 1
+      },
+      {
+        "seq": 35,
+        "staffId": 3,
+        "staffName": "王强",
+        "sampleId": "C",
+        "sampleName": "空气颗粒物检测",
+        "sampleSeq": 5,
+        "hours": 1.0526315789473684
+      },
+      {
+        "seq": 36,
+        "staffId": 2,
+        "staffName": "李娜",
+        "sampleId": "C",
+        "sampleName": "空气颗粒物检测",
+        "sampleSeq": 6,
+        "hours": 0.9090909090909091
+      },
+      {
+        "seq": 37,
+        "staffId": 1,
+        "staffName": "张伟",
+        "sampleId": "C",
+        "sampleName": "空气颗粒物检测",
+        "sampleSeq": 7,
+        "hours": 1
+      },
+      {
+        "seq": 38,
+        "staffId": 3,
+        "staffName": "王强",
+        "sampleId": "C",
+        "sampleName": "空气颗粒物检测",
+        "sampleSeq": 8,
+        "hours": 1.0526315789473684
+      },
+      {
+        "seq": 39,
+        "staffId": 4,
+        "staffName": "赵敏",
+        "sampleId": "E",
+        "sampleName": "纺织品甲醛检测",
+        "sampleSeq": 1,
+        "hours": 0.31746031746031744
+      },
+      {
+        "seq": 40,
+        "staffId": 4,
+        "staffName": "赵敏",
+        "sampleId": "E",
+        "sampleName": "纺织品甲醛检测",
+        "sampleSeq": 2,
+        "hours": 0.31746031746031744
+      },
+      {
+        "seq": 41,
+        "staffId": 4,
+        "staffName": "赵敏",
+        "sampleId": "E",
+        "sampleName": "纺织品甲醛检测",
+        "sampleSeq": 3,
+        "hours": 0.31746031746031744
+      },
+      {
+        "seq": 42,
+        "staffId": 4,
+        "staffName": "赵敏",
+        "sampleId": "E",
+        "sampleName": "纺织品甲醛检测",
+        "sampleSeq": 4,
+        "hours": 0.31746031746031744
+      },
+      {
+        "seq": 43,
+        "staffId": 5,
+        "staffName": "陈晨",
+        "sampleId": "E",
+        "sampleName": "纺织品甲醛检测",
+        "sampleSeq": 5,
+        "hours": 0.5555555555555556
+      },
+      {
+        "seq": 44,
+        "staffId": 4,
+        "staffName": "赵敏",
+        "sampleId": "E",
+        "sampleName": "纺织品甲醛检测",
+        "sampleSeq": 6,
+        "hours": 0.31746031746031744
+      },
+      {
+        "seq": 45,
+        "staffId": 4,
+        "staffName": "赵敏",
+        "sampleId": "E",
+        "sampleName": "纺织品甲醛检测",
+        "sampleSeq": 7,
+        "hours": 0.31746031746031744
+      },
+      {
+        "seq": 46,
+        "staffId": 4,
+        "staffName": "赵敏",
+        "sampleId": "E",
+        "sampleName": "纺织品甲醛检测",
+        "sampleSeq": 8,
+        "hours": 0.31746031746031744
+      },
+      {
+        "seq": 47,
+        "staffId": 5,
+        "staffName": "陈晨",
+        "sampleId": "E",
+        "sampleName": "纺织品甲醛检测",
+        "sampleSeq": 9,
+        "hours": 0.5555555555555556
+      },
+      {
+        "seq": 48,
+        "staffId": 3,
+        "staffName": "王强",
+        "sampleId": "E",
+        "sampleName": "纺织品甲醛检测",
+        "sampleSeq": 10,
+        "hours": 0.3508771929824561
+      }
+    ],
+    "unfinished": [],
+    "utilization": [
+      {
+        "staffId": 1,
+        "staffName": "张伟",
+        "type": "全职",
+        "usedHours": 7.25,
+        "availableHours": 8,
+        "utilization": 90.63,
+        "assignmentCount": 11,
+        "assignmentDetails": [
+          {
+            "sampleId": "B",
+            "sampleName": "土壤重金属检测",
+            "hours": 0.75,
+            "seq": 3
+          },
+          {
+            "sampleId": "B",
+            "sampleName": "土壤重金属检测",
+            "hours": 0.75,
+            "seq": 6
+          },
+          {
+            "sampleId": "B",
+            "sampleName": "土壤重金属检测",
+            "hours": 0.75,
+            "seq": 10
+          },
+          {
+            "sampleId": "A",
+            "sampleName": "水质检测",
+            "hours": 0.5,
+            "seq": 3
+          },
+          {
+            "sampleId": "A",
+            "sampleName": "水质检测",
+            "hours": 0.5,
+            "seq": 6
+          },
+          {
+            "sampleId": "A",
+            "sampleName": "水质检测",
+            "hours": 0.5,
+            "seq": 9
+          },
+          {
+            "sampleId": "A",
+            "sampleName": "水质检测",
+            "hours": 0.5,
+            "seq": 11
+          },
+          {
+            "sampleId": "A",
+            "sampleName": "水质检测",
+            "hours": 0.5,
+            "seq": 13
+          },
+          {
+            "sampleId": "A",
+            "sampleName": "水质检测",
+            "hours": 0.5,
+            "seq": 16
+          },
+          {
+            "sampleId": "C",
+            "sampleName": "空气颗粒物检测",
+            "hours": 1,
+            "seq": 4
+          },
+          {
+            "sampleId": "C",
+            "sampleName": "空气颗粒物检测",
+            "hours": 1,
+            "seq": 7
+          }
+        ]
+      },
+      {
+        "staffId": 2,
+        "staffName": "李娜",
+        "type": "全职",
+        "usedHours": 7.27,
+        "availableHours": 8,
+        "utilization": 90.91,
+        "assignmentCount": 8,
+        "assignmentDetails": [
+          {
+            "sampleId": "B",
+            "sampleName": "土壤重金属检测",
+            "hours": 0.6818181818181818,
+            "seq": 1
+          },
+          {
+            "sampleId": "B",
+            "sampleName": "土壤重金属检测",
+            "hours": 0.6818181818181818,
+            "seq": 4
+          },
+          {
+            "sampleId": "B",
+            "sampleName": "土壤重金属检测",
+            "hours": 0.6818181818181818,
+            "seq": 7
+          },
+          {
+            "sampleId": "B",
+            "sampleName": "土壤重金属检测",
+            "hours": 0.6818181818181818,
+            "seq": 9
+          },
+          {
+            "sampleId": "D",
+            "sampleName": "食品微生物检测",
+            "hours": 1.8181818181818181,
+            "seq": 3
+          },
+          {
+            "sampleId": "C",
+            "sampleName": "空气颗粒物检测",
+            "hours": 0.9090909090909091,
+            "seq": 1
+          },
+          {
+            "sampleId": "C",
+            "sampleName": "空气颗粒物检测",
+            "hours": 0.9090909090909091,
+            "seq": 3
+          },
+          {
+            "sampleId": "C",
+            "sampleName": "空气颗粒物检测",
+            "hours": 0.9090909090909091,
+            "seq": 6
+          }
+        ]
+      },
+      {
+        "staffId": 3,
+        "staffName": "王强",
+        "type": "全职",
+        "usedHours": 7.72,
+        "availableHours": 8,
+        "utilization": 96.49,
+        "assignmentCount": 6,
+        "assignmentDetails": [
+          {
+            "sampleId": "D",
+            "sampleName": "食品微生物检测",
+            "hours": 2.1052631578947367,
+            "seq": 2
+          },
+          {
+            "sampleId": "D",
+            "sampleName": "食品微生物检测",
+            "hours": 2.1052631578947367,
+            "seq": 4
+          },
+          {
+            "sampleId": "C",
+            "sampleName": "空气颗粒物检测",
+            "hours": 1.0526315789473684,
+            "seq": 2
+          },
+          {
+            "sampleId": "C",
+            "sampleName": "空气颗粒物检测",
+            "hours": 1.0526315789473684,
+            "seq": 5
+          },
+          {
+            "sampleId": "C",
+            "sampleName": "空气颗粒物检测",
+            "hours": 1.0526315789473684,
+            "seq": 8
+          },
+          {
+            "sampleId": "E",
+            "sampleName": "纺织品甲醛检测",
+            "hours": 0.3508771929824561,
+            "seq": 10
+          }
+        ]
+      },
+      {
+        "staffId": 4,
+        "staffName": "赵敏",
+        "type": "全职",
+        "usedHours": 7.7,
+        "availableHours": 8,
+        "utilization": 96.23,
+        "assignmentCount": 17,
+        "assignmentDetails": [
+          {
+            "sampleId": "B",
+            "sampleName": "土壤重金属检测",
+            "hours": 0.7142857142857143,
+            "seq": 2
+          },
+          {
+            "sampleId": "B",
+            "sampleName": "土壤重金属检测",
+            "hours": 0.7142857142857143,
+            "seq": 5
+          },
+          {
+            "sampleId": "B",
+            "sampleName": "土壤重金属检测",
+            "hours": 0.7142857142857143,
+            "seq": 8
+          },
+          {
+            "sampleId": "A",
+            "sampleName": "水质检测",
+            "hours": 0.47619047619047616,
+            "seq": 2
+          },
+          {
+            "sampleId": "A",
+            "sampleName": "水质检测",
+            "hours": 0.47619047619047616,
+            "seq": 4
+          },
+          {
+            "sampleId": "A",
+            "sampleName": "水质检测",
+            "hours": 0.47619047619047616,
+            "seq": 5
+          },
+          {
+            "sampleId": "A",
+            "sampleName": "水质检测",
+            "hours": 0.47619047619047616,
+            "seq": 8
+          },
+          {
+            "sampleId": "A",
+            "sampleName": "水质检测",
+            "hours": 0.47619047619047616,
+            "seq": 10
+          },
+          {
+            "sampleId": "A",
+            "sampleName": "水质检测",
+            "hours": 0.47619047619047616,
+            "seq": 12
+          },
+          {
+            "sampleId": "A",
+            "sampleName": "水质检测",
+            "hours": 0.47619047619047616,
+            "seq": 15
+          },
+          {
+            "sampleId": "E",
+            "sampleName": "纺织品甲醛检测",
+            "hours": 0.31746031746031744,
+            "seq": 1
+          },
+          {
+            "sampleId": "E",
+            "sampleName": "纺织品甲醛检测",
+            "hours": 0.31746031746031744,
+            "seq": 2
+          },
+          {
+            "sampleId": "E",
+            "sampleName": "纺织品甲醛检测",
+            "hours": 0.31746031746031744,
+            "seq": 3
+          },
+          {
+            "sampleId": "E",
+            "sampleName": "纺织品甲醛检测",
+            "hours": 0.31746031746031744,
+            "seq": 4
+          },
+          {
+            "sampleId": "E",
+            "sampleName": "纺织品甲醛检测",
+            "hours": 0.31746031746031744,
+            "seq": 6
+          },
+          {
+            "sampleId": "E",
+            "sampleName": "纺织品甲醛检测",
+            "hours": 0.31746031746031744,
+            "seq": 7
+          },
+          {
+            "sampleId": "E",
+            "sampleName": "纺织品甲醛检测",
+            "hours": 0.31746031746031744,
+            "seq": 8
+          }
+        ]
+      },
+      {
+        "staffId": 5,
+        "staffName": "陈晨",
+        "type": "实习生",
+        "usedHours": 3.61,
+        "availableHours": 4,
+        "utilization": 90.28,
+        "assignmentCount": 5,
+        "assignmentDetails": [
+          {
+            "sampleId": "A",
+            "sampleName": "水质检测",
+            "hours": 0.8333333333333334,
+            "seq": 1
+          },
+          {
+            "sampleId": "A",
+            "sampleName": "水质检测",
+            "hours": 0.8333333333333334,
+            "seq": 7
+          },
+          {
+            "sampleId": "A",
+            "sampleName": "水质检测",
+            "hours": 0.8333333333333334,
+            "seq": 14
+          },
+          {
+            "sampleId": "E",
+            "sampleName": "纺织品甲醛检测",
+            "hours": 0.5555555555555556,
+            "seq": 5
+          },
+          {
+            "sampleId": "E",
+            "sampleName": "纺织品甲醛检测",
+            "hours": 0.5555555555555556,
+            "seq": 9
+          }
+        ]
+      },
+      {
+        "staffId": 6,
+        "staffName": "刘洋",
+        "type": "实习生",
+        "usedHours": 2.86,
+        "availableHours": 4,
+        "utilization": 71.43,
+        "assignmentCount": 1,
+        "assignmentDetails": [
+          {
+            "sampleId": "D",
+            "sampleName": "食品微生物检测",
+            "hours": 2.857142857142857,
+            "seq": 1
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "totalTasks": 48,
+      "completedCount": 48,
+      "unfinishedCount": 0,
+      "completionRate": 100,
+      "totalUsedHours": 36.41,
+      "totalAvailableHours": 40,
+      "sampleRevenue": 15100,
+      "sampleCost": 6080,
+      "laborCost": 1662.71,
+      "profit": 7357.29
+    },
+    "completedBySample": {
+      "B": 10,
+      "A": 16,
+      "D": 4,
+      "C": 8,
+      "E": 10
+    },
+    "taskMap": {
+      "A": 16,
+      "B": 10,
+      "C": 8,
+      "D": 4,
+      "E": 10
+    },
+    "forecast": {
+      "totalTaskCount": 48,
+      "demandHours": 34.83,
+      "availableHours": 40,
+      "gapHours": 0,
+      "estimatedCompletionRate": 100
+    },
+    "warnings": [
+      {
+        "level": "提示",
+        "message": "王强 的工时利用率已达 96.49%，接近上限。",
+        "suggestion": "建议：关注该员工负载，必要时安排人员支援。"
+      },
+      {
+        "level": "提示",
+        "message": "赵敏 的工时利用率已达 96.23%，接近上限。",
+        "suggestion": "建议：关注该员工负载，必要时安排人员支援。"
+      }
+    ]
+  },
+  "history": [
+    {
+      "date": "2026-08-13",
+      "generatedAt": "2026-08-13T03:09:38.334Z",
+      "assignments": [
+        {
+          "seq": 1,
+          "staffId": 2,
+          "staffName": "李娜",
+          "sampleId": "B",
+          "sampleName": "土壤重金属检测",
+          "sampleSeq": 1,
+          "hours": 0.6818181818181818
+        },
+        {
+          "seq": 2,
+          "staffId": 4,
+          "staffName": "赵敏",
+          "sampleId": "B",
+          "sampleName": "土壤重金属检测",
+          "sampleSeq": 2,
+          "hours": 0.7142857142857143
+        },
+        {
+          "seq": 3,
+          "staffId": 1,
+          "staffName": "张伟",
+          "sampleId": "B",
+          "sampleName": "土壤重金属检测",
+          "sampleSeq": 3,
+          "hours": 0.75
+        },
+        {
+          "seq": 4,
+          "staffId": 2,
+          "staffName": "李娜",
+          "sampleId": "B",
+          "sampleName": "土壤重金属检测",
+          "sampleSeq": 4,
+          "hours": 0.6818181818181818
+        },
+        {
+          "seq": 5,
+          "staffId": 4,
+          "staffName": "赵敏",
+          "sampleId": "B",
+          "sampleName": "土壤重金属检测",
+          "sampleSeq": 5,
+          "hours": 0.7142857142857143
+        },
+        {
+          "seq": 6,
+          "staffId": 1,
+          "staffName": "张伟",
+          "sampleId": "B",
+          "sampleName": "土壤重金属检测",
+          "sampleSeq": 6,
+          "hours": 0.75
+        },
+        {
+          "seq": 7,
+          "staffId": 2,
+          "staffName": "李娜",
+          "sampleId": "B",
+          "sampleName": "土壤重金属检测",
+          "sampleSeq": 7,
+          "hours": 0.6818181818181818
+        },
+        {
+          "seq": 8,
+          "staffId": 4,
+          "staffName": "赵敏",
+          "sampleId": "B",
+          "sampleName": "土壤重金属检测",
+          "sampleSeq": 8,
+          "hours": 0.7142857142857143
+        },
+        {
+          "seq": 9,
+          "staffId": 2,
+          "staffName": "李娜",
+          "sampleId": "B",
+          "sampleName": "土壤重金属检测",
+          "sampleSeq": 9,
+          "hours": 0.6818181818181818
+        },
+        {
+          "seq": 10,
+          "staffId": 1,
+          "staffName": "张伟",
+          "sampleId": "B",
+          "sampleName": "土壤重金属检测",
+          "sampleSeq": 10,
+          "hours": 0.75
+        },
+        {
+          "seq": 11,
+          "staffId": 5,
+          "staffName": "陈晨",
+          "sampleId": "A",
+          "sampleName": "水质检测",
+          "sampleSeq": 1,
+          "hours": 0.8333333333333334
+        },
+        {
+          "seq": 12,
+          "staffId": 4,
+          "staffName": "赵敏",
+          "sampleId": "A",
+          "sampleName": "水质检测",
+          "sampleSeq": 2,
+          "hours": 0.47619047619047616
+        },
+        {
+          "seq": 13,
+          "staffId": 1,
+          "staffName": "张伟",
+          "sampleId": "A",
+          "sampleName": "水质检测",
+          "sampleSeq": 3,
+          "hours": 0.5
+        },
+        {
+          "seq": 14,
+          "staffId": 4,
+          "staffName": "赵敏",
+          "sampleId": "A",
+          "sampleName": "水质检测",
+          "sampleSeq": 4,
+          "hours": 0.47619047619047616
+        },
+        {
+          "seq": 15,
+          "staffId": 4,
+          "staffName": "赵敏",
+          "sampleId": "A",
+          "sampleName": "水质检测",
+          "sampleSeq": 5,
+          "hours": 0.47619047619047616
+        },
+        {
+          "seq": 16,
+          "staffId": 1,
+          "staffName": "张伟",
+          "sampleId": "A",
+          "sampleName": "水质检测",
+          "sampleSeq": 6,
+          "hours": 0.5
+        },
+        {
+          "seq": 17,
+          "staffId": 5,
+          "staffName": "陈晨",
+          "sampleId": "A",
+          "sampleName": "水质检测",
+          "sampleSeq": 7,
+          "hours": 0.8333333333333334
+        },
+        {
+          "seq": 18,
+          "staffId": 4,
+          "staffName": "赵敏",
+          "sampleId": "A",
+          "sampleName": "水质检测",
+          "sampleSeq": 8,
+          "hours": 0.47619047619047616
+        },
+        {
+          "seq": 19,
+          "staffId": 1,
+          "staffName": "张伟",
+          "sampleId": "A",
+          "sampleName": "水质检测",
+          "sampleSeq": 9,
+          "hours": 0.5
+        },
+        {
+          "seq": 20,
+          "staffId": 4,
+          "staffName": "赵敏",
+          "sampleId": "A",
+          "sampleName": "水质检测",
+          "sampleSeq": 10,
+          "hours": 0.47619047619047616
+        },
+        {
+          "seq": 21,
+          "staffId": 1,
+          "staffName": "张伟",
+          "sampleId": "A",
+          "sampleName": "水质检测",
+          "sampleSeq": 11,
+          "hours": 0.5
+        },
+        {
+          "seq": 22,
+          "staffId": 4,
+          "staffName": "赵敏",
+          "sampleId": "A",
+          "sampleName": "水质检测",
+          "sampleSeq": 12,
+          "hours": 0.47619047619047616
+        },
+        {
+          "seq": 23,
+          "staffId": 1,
+          "staffName": "张伟",
+          "sampleId": "A",
+          "sampleName": "水质检测",
+          "sampleSeq": 13,
+          "hours": 0.5
+        },
+        {
+          "seq": 24,
+          "staffId": 5,
+          "staffName": "陈晨",
+          "sampleId": "A",
+          "sampleName": "水质检测",
+          "sampleSeq": 14,
+          "hours": 0.8333333333333334
+        },
+        {
+          "seq": 25,
+          "staffId": 4,
+          "staffName": "赵敏",
+          "sampleId": "A",
+          "sampleName": "水质检测",
+          "sampleSeq": 15,
+          "hours": 0.47619047619047616
+        },
+        {
+          "seq": 26,
+          "staffId": 1,
+          "staffName": "张伟",
+          "sampleId": "A",
+          "sampleName": "水质检测",
+          "sampleSeq": 16,
+          "hours": 0.5
+        },
+        {
+          "seq": 27,
+          "staffId": 6,
+          "staffName": "刘洋",
+          "sampleId": "D",
+          "sampleName": "食品微生物检测",
+          "sampleSeq": 1,
+          "hours": 2.857142857142857
+        },
+        {
+          "seq": 28,
+          "staffId": 3,
+          "staffName": "王强",
+          "sampleId": "D",
+          "sampleName": "食品微生物检测",
+          "sampleSeq": 2,
+          "hours": 2.1052631578947367
+        },
+        {
+          "seq": 29,
+          "staffId": 2,
+          "staffName": "李娜",
+          "sampleId": "D",
+          "sampleName": "食品微生物检测",
+          "sampleSeq": 3,
+          "hours": 1.8181818181818181
+        },
+        {
+          "seq": 30,
+          "staffId": 3,
+          "staffName": "王强",
+          "sampleId": "D",
+          "sampleName": "食品微生物检测",
+          "sampleSeq": 4,
+          "hours": 2.1052631578947367
+        },
+        {
+          "seq": 31,
+          "staffId": 2,
+          "staffName": "李娜",
+          "sampleId": "C",
+          "sampleName": "空气颗粒物检测",
+          "sampleSeq": 1,
+          "hours": 0.9090909090909091
+        },
+        {
+          "seq": 32,
+          "staffId": 3,
+          "staffName": "王强",
+          "sampleId": "C",
+          "sampleName": "空气颗粒物检测",
+          "sampleSeq": 2,
+          "hours": 1.0526315789473684
+        },
+        {
+          "seq": 33,
+          "staffId": 2,
+          "staffName": "李娜",
+          "sampleId": "C",
+          "sampleName": "空气颗粒物检测",
+          "sampleSeq": 3,
+          "hours": 0.9090909090909091
+        },
+        {
+          "seq": 34,
+          "staffId": 1,
+          "staffName": "张伟",
+          "sampleId": "C",
+          "sampleName": "空气颗粒物检测",
+          "sampleSeq": 4,
+          "hours": 1
+        },
+        {
+          "seq": 35,
+          "staffId": 3,
+          "staffName": "王强",
+          "sampleId": "C",
+          "sampleName": "空气颗粒物检测",
+          "sampleSeq": 5,
+          "hours": 1.0526315789473684
+        },
+        {
+          "seq": 36,
+          "staffId": 2,
+          "staffName": "李娜",
+          "sampleId": "C",
+          "sampleName": "空气颗粒物检测",
+          "sampleSeq": 6,
+          "hours": 0.9090909090909091
+        },
+        {
+          "seq": 37,
+          "staffId": 1,
+          "staffName": "张伟",
+          "sampleId": "C",
+          "sampleName": "空气颗粒物检测",
+          "sampleSeq": 7,
+          "hours": 1
+        },
+        {
+          "seq": 38,
+          "staffId": 3,
+          "staffName": "王强",
+          "sampleId": "C",
+          "sampleName": "空气颗粒物检测",
+          "sampleSeq": 8,
+          "hours": 1.0526315789473684
+        },
+        {
+          "seq": 39,
+          "staffId": 4,
+          "staffName": "赵敏",
+          "sampleId": "E",
+          "sampleName": "纺织品甲醛检测",
+          "sampleSeq": 1,
+          "hours": 0.31746031746031744
+        },
+        {
+          "seq": 40,
+          "staffId": 4,
+          "staffName": "赵敏",
+          "sampleId": "E",
+          "sampleName": "纺织品甲醛检测",
+          "sampleSeq": 2,
+          "hours": 0.31746031746031744
+        },
+        {
+          "seq": 41,
+          "staffId": 4,
+          "staffName": "赵敏",
+          "sampleId": "E",
+          "sampleName": "纺织品甲醛检测",
+          "sampleSeq": 3,
+          "hours": 0.31746031746031744
+        },
+        {
+          "seq": 42,
+          "staffId": 4,
+          "staffName": "赵敏",
+          "sampleId": "E",
+          "sampleName": "纺织品甲醛检测",
+          "sampleSeq": 4,
+          "hours": 0.31746031746031744
+        },
+        {
+          "seq": 43,
+          "staffId": 5,
+          "staffName": "陈晨",
+          "sampleId": "E",
+          "sampleName": "纺织品甲醛检测",
+          "sampleSeq": 5,
+          "hours": 0.5555555555555556
+        },
+        {
+          "seq": 44,
+          "staffId": 4,
+          "staffName": "赵敏",
+          "sampleId": "E",
+          "sampleName": "纺织品甲醛检测",
+          "sampleSeq": 6,
+          "hours": 0.31746031746031744
+        },
+        {
+          "seq": 45,
+          "staffId": 4,
+          "staffName": "赵敏",
+          "sampleId": "E",
+          "sampleName": "纺织品甲醛检测",
+          "sampleSeq": 7,
+          "hours": 0.31746031746031744
+        },
+        {
+          "seq": 46,
+          "staffId": 4,
+          "staffName": "赵敏",
+          "sampleId": "E",
+          "sampleName": "纺织品甲醛检测",
+          "sampleSeq": 8,
+          "hours": 0.31746031746031744
+        },
+        {
+          "seq": 47,
+          "staffId": 5,
+          "staffName": "陈晨",
+          "sampleId": "E",
+          "sampleName": "纺织品甲醛检测",
+          "sampleSeq": 9,
+          "hours": 0.5555555555555556
+        },
+        {
+          "seq": 48,
+          "staffId": 3,
+          "staffName": "王强",
+          "sampleId": "E",
+          "sampleName": "纺织品甲醛检测",
+          "sampleSeq": 10,
+          "hours": 0.3508771929824561
+        }
+      ],
+      "unfinished": [],
+      "utilization": [
+        {
+          "staffId": 1,
+          "staffName": "张伟",
+          "type": "全职",
+          "usedHours": 7.25,
+          "availableHours": 8,
+          "utilization": 90.63,
+          "assignmentCount": 11,
+          "assignmentDetails": [
+            {
+              "sampleId": "B",
+              "sampleName": "土壤重金属检测",
+              "hours": 0.75,
+              "seq": 3
+            },
+            {
+              "sampleId": "B",
+              "sampleName": "土壤重金属检测",
+              "hours": 0.75,
+              "seq": 6
+            },
+            {
+              "sampleId": "B",
+              "sampleName": "土壤重金属检测",
+              "hours": 0.75,
+              "seq": 10
+            },
+            {
+              "sampleId": "A",
+              "sampleName": "水质检测",
+              "hours": 0.5,
+              "seq": 3
+            },
+            {
+              "sampleId": "A",
+              "sampleName": "水质检测",
+              "hours": 0.5,
+              "seq": 6
+            },
+            {
+              "sampleId": "A",
+              "sampleName": "水质检测",
+              "hours": 0.5,
+              "seq": 9
+            },
+            {
+              "sampleId": "A",
+              "sampleName": "水质检测",
+              "hours": 0.5,
+              "seq": 11
+            },
+            {
+              "sampleId": "A",
+              "sampleName": "水质检测",
+              "hours": 0.5,
+              "seq": 13
+            },
+            {
+              "sampleId": "A",
+              "sampleName": "水质检测",
+              "hours": 0.5,
+              "seq": 16
+            },
+            {
+              "sampleId": "C",
+              "sampleName": "空气颗粒物检测",
+              "hours": 1,
+              "seq": 4
+            },
+            {
+              "sampleId": "C",
+              "sampleName": "空气颗粒物检测",
+              "hours": 1,
+              "seq": 7
+            }
+          ]
+        },
+        {
+          "staffId": 2,
+          "staffName": "李娜",
+          "type": "全职",
+          "usedHours": 7.27,
+          "availableHours": 8,
+          "utilization": 90.91,
+          "assignmentCount": 8,
+          "assignmentDetails": [
+            {
+              "sampleId": "B",
+              "sampleName": "土壤重金属检测",
+              "hours": 0.6818181818181818,
+              "seq": 1
+            },
+            {
+              "sampleId": "B",
+              "sampleName": "土壤重金属检测",
+              "hours": 0.6818181818181818,
+              "seq": 4
+            },
+            {
+              "sampleId": "B",
+              "sampleName": "土壤重金属检测",
+              "hours": 0.6818181818181818,
+              "seq": 7
+            },
+            {
+              "sampleId": "B",
+              "sampleName": "土壤重金属检测",
+              "hours": 0.6818181818181818,
+              "seq": 9
+            },
+            {
+              "sampleId": "D",
+              "sampleName": "食品微生物检测",
+              "hours": 1.8181818181818181,
+              "seq": 3
+            },
+            {
+              "sampleId": "C",
+              "sampleName": "空气颗粒物检测",
+              "hours": 0.9090909090909091,
+              "seq": 1
+            },
+            {
+              "sampleId": "C",
+              "sampleName": "空气颗粒物检测",
+              "hours": 0.9090909090909091,
+              "seq": 3
+            },
+            {
+              "sampleId": "C",
+              "sampleName": "空气颗粒物检测",
+              "hours": 0.9090909090909091,
+              "seq": 6
+            }
+          ]
+        },
+        {
+          "staffId": 3,
+          "staffName": "王强",
+          "type": "全职",
+          "usedHours": 7.72,
+          "availableHours": 8,
+          "utilization": 96.49,
+          "assignmentCount": 6,
+          "assignmentDetails": [
+            {
+              "sampleId": "D",
+              "sampleName": "食品微生物检测",
+              "hours": 2.1052631578947367,
+              "seq": 2
+            },
+            {
+              "sampleId": "D",
+              "sampleName": "食品微生物检测",
+              "hours": 2.1052631578947367,
+              "seq": 4
+            },
+            {
+              "sampleId": "C",
+              "sampleName": "空气颗粒物检测",
+              "hours": 1.0526315789473684,
+              "seq": 2
+            },
+            {
+              "sampleId": "C",
+              "sampleName": "空气颗粒物检测",
+              "hours": 1.0526315789473684,
+              "seq": 5
+            },
+            {
+              "sampleId": "C",
+              "sampleName": "空气颗粒物检测",
+              "hours": 1.0526315789473684,
+              "seq": 8
+            },
+            {
+              "sampleId": "E",
+              "sampleName": "纺织品甲醛检测",
+              "hours": 0.3508771929824561,
+              "seq": 10
+            }
+          ]
+        },
+        {
+          "staffId": 4,
+          "staffName": "赵敏",
+          "type": "全职",
+          "usedHours": 7.7,
+          "availableHours": 8,
+          "utilization": 96.23,
+          "assignmentCount": 17,
+          "assignmentDetails": [
+            {
+              "sampleId": "B",
+              "sampleName": "土壤重金属检测",
+              "hours": 0.7142857142857143,
+              "seq": 2
+            },
+            {
+              "sampleId": "B",
+              "sampleName": "土壤重金属检测",
+              "hours": 0.7142857142857143,
+              "seq": 5
+            },
+            {
+              "sampleId": "B",
+              "sampleName": "土壤重金属检测",
+              "hours": 0.7142857142857143,
+              "seq": 8
+            },
+            {
+              "sampleId": "A",
+              "sampleName": "水质检测",
+              "hours": 0.47619047619047616,
+              "seq": 2
+            },
+            {
+              "sampleId": "A",
+              "sampleName": "水质检测",
+              "hours": 0.47619047619047616,
+              "seq": 4
+            },
+            {
+              "sampleId": "A",
+              "sampleName": "水质检测",
+              "hours": 0.47619047619047616,
+              "seq": 5
+            },
+            {
+              "sampleId": "A",
+              "sampleName": "水质检测",
+              "hours": 0.47619047619047616,
+              "seq": 8
+            },
+            {
+              "sampleId": "A",
+              "sampleName": "水质检测",
+              "hours": 0.47619047619047616,
+              "seq": 10
+            },
+            {
+              "sampleId": "A",
+              "sampleName": "水质检测",
+              "hours": 0.47619047619047616,
+              "seq": 12
+            },
+            {
+              "sampleId": "A",
+              "sampleName": "水质检测",
+              "hours": 0.47619047619047616,
+              "seq": 15
+            },
+            {
+              "sampleId": "E",
+              "sampleName": "纺织品甲醛检测",
+              "hours": 0.31746031746031744,
+              "seq": 1
+            },
+            {
+              "sampleId": "E",
+              "sampleName": "纺织品甲醛检测",
+              "hours": 0.31746031746031744,
+              "seq": 2
+            },
+            {
+              "sampleId": "E",
+              "sampleName": "纺织品甲醛检测",
+              "hours": 0.31746031746031744,
+              "seq": 3
+            },
+            {
+              "sampleId": "E",
+              "sampleName": "纺织品甲醛检测",
+              "hours": 0.31746031746031744,
+              "seq": 4
+            },
+            {
+              "sampleId": "E",
+              "sampleName": "纺织品甲醛检测",
+              "hours": 0.31746031746031744,
+              "seq": 6
+            },
+            {
+              "sampleId": "E",
+              "sampleName": "纺织品甲醛检测",
+              "hours": 0.31746031746031744,
+              "seq": 7
+            },
+            {
+              "sampleId": "E",
+              "sampleName": "纺织品甲醛检测",
+              "hours": 0.31746031746031744,
+              "seq": 8
+            }
+          ]
+        },
+        {
+          "staffId": 5,
+          "staffName": "陈晨",
+          "type": "实习生",
+          "usedHours": 3.61,
+          "availableHours": 4,
+          "utilization": 90.28,
+          "assignmentCount": 5,
+          "assignmentDetails": [
+            {
+              "sampleId": "A",
+              "sampleName": "水质检测",
+              "hours": 0.8333333333333334,
+              "seq": 1
+            },
+            {
+              "sampleId": "A",
+              "sampleName": "水质检测",
+              "hours": 0.8333333333333334,
+              "seq": 7
+            },
+            {
+              "sampleId": "A",
+              "sampleName": "水质检测",
+              "hours": 0.8333333333333334,
+              "seq": 14
+            },
+            {
+              "sampleId": "E",
+              "sampleName": "纺织品甲醛检测",
+              "hours": 0.5555555555555556,
+              "seq": 5
+            },
+            {
+              "sampleId": "E",
+              "sampleName": "纺织品甲醛检测",
+              "hours": 0.5555555555555556,
+              "seq": 9
+            }
+          ]
+        },
+        {
+          "staffId": 6,
+          "staffName": "刘洋",
+          "type": "实习生",
+          "usedHours": 2.86,
+          "availableHours": 4,
+          "utilization": 71.43,
+          "assignmentCount": 1,
+          "assignmentDetails": [
+            {
+              "sampleId": "D",
+              "sampleName": "食品微生物检测",
+              "hours": 2.857142857142857,
+              "seq": 1
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "totalTasks": 48,
+        "completedCount": 48,
+        "unfinishedCount": 0,
+        "completionRate": 100,
+        "totalUsedHours": 36.41,
+        "totalAvailableHours": 40,
+        "sampleRevenue": 15100,
+        "sampleCost": 6080,
+        "laborCost": 1662.71,
+        "profit": 7357.29
+      },
+      "completedBySample": {
+        "B": 10,
+        "A": 16,
+        "D": 4,
+        "C": 8,
+        "E": 10
+      },
+      "taskMap": {
+        "A": 16,
+        "B": 10,
+        "C": 8,
+        "D": 4,
+        "E": 10
+      },
+      "forecast": {
+        "totalTaskCount": 48,
+        "demandHours": 34.83,
+        "availableHours": 40,
+        "gapHours": 0,
+        "estimatedCompletionRate": 100
+      },
+      "warnings": [
+        {
+          "level": "提示",
+          "message": "王强 的工时利用率已达 96.49%，接近上限。",
+          "suggestion": "建议：关注该员工负载，必要时安排人员支援。"
+        },
+        {
+          "level": "提示",
+          "message": "赵敏 的工时利用率已达 96.23%，接近上限。",
+          "suggestion": "建议：关注该员工负载，必要时安排人员支援。"
+        }
+      ]
+    }
+  ]
+}

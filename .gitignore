@@ -1,0 +1,6 @@
+# 依赖目录（本地 npm install 生成）
+node_modules/
+
+# 日志与临时文件
+*.log
+.DS_Store
